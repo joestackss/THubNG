@@ -665,15 +665,14 @@ section {
 # Update Section
 --------------------------------------------------------------*/
 #reasons {
-  width: 100%;
   background-color: #e9f1f8;
-  text-align: left;
-  margin: 0 0;
+  margin: 0 auto;
 }
 
 #reasons .container {
   width: 100%;
   max-width: 1164px;
+  margin: 0 auto;
 }
 
 #reasons h2 {
@@ -994,6 +993,105 @@ section {
   html {
     font-size: 0.8rem;
   }
+
+  /*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  text-align: center;
+  background-image: url(/assets/img/hero/hero-img.jpg), linear-gradient(2.23deg,
+      #050401 -16.28%,
+      rgba(9, 48, 84, 0) 266.28%);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+#hero .container {
+  width: 90%;
+  max-width: 1164px;
+  margin: 0 auto;
+}
+
+#hero .container .headingContainer {
+  width: 100%;
+  max-width: 905px;
+  margin: 0 auto;
+}
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 130px;
+  font-weight: 400;
+  line-height: 120px;
+  color: #fff;
+  font-family: Spantaran1 sans-serif;
+}
+
+#hero h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 36px;
+  text-align: left;
+  font-weight: 700;
+  font-family: JakartaMedium sans-serif;
+  margin-top: 250px;
+}
+
+#hero p {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 400;
+  font-family: JakartaMedium sans-serif;
+}
+
+.get-discovered-btn {
+  background: var(--color-primary);
+  color: #fff;
+  margin-left: 0;
+  font-weight: 400;
+  display: inline-block;
+  white-space: nowrap;
+  border-radius: 30px;
+  transition: 0.3s;
+  font-size: 18px;
+  padding: 20px 50px;
+}
+
+#hero .scrollUp {
+  margin: 50px;
+  padding-bottom: 80px;
+}
+
+#hero .btn-scroll {
+  font-size: 36px;
+  display: inline-block;
+  padding: 14px 0;
+  border-radius: 20px;
+  transition: 0.3s ease-in-out;
+  width: 61px;
+  height: 103px;
+  text-align: center;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero .btn-scroll:hover {
+  padding-top: 8px;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+#hero .scrollUp p {
+  padding-top: 20px;
+  font-size: 18px;
+  line-height: 169.5%;
+  color: #FFFFFF;
+  opacity: 0.9;
+}
 
   #promote {
     background-color: #e9f1f8;
