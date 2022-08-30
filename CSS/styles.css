@@ -39,6 +39,10 @@ html {
   font-size: 1rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -89,27 +93,50 @@ body {
   z-index: 997;
 }
 
-#header.header-scrolled,
-#header.header-inner-pages {
-  background: rgba(40, 40, 40, 0.9);
+#header .container {
+  margin: 0 auto;
+  background-color: rgba(2, 43, 84, 0.1);
 }
 
-@media (max-width: 992px) {
-  #header {
-    border: 0;
-    padding: 25px 0;
-  }
+#header h3 {
+  display: inline-block;
 }
 
-/* Get Startet Button */
-.get-started-btn {
-  background: var(--color-primary);
-  color: #fff;
+#header .container .inner-container {
+  display: flex;
+  background: transparent;
+  width: 100%;
+  max-width: 1175px;
+  justify-content: center;
+
 }
 
-.get-started-btn1 {
-  border: 1px solid var(--color-primary);
-  color: var(--color-primary);
+#header .container .inner-container .inner-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  align-items: center;
+}
+
+#header .container .inner-container .inner-nav p {
+ margin: 0;
+ padding: 0;
+}
+
+#header .container .inner-container .logoNav {
+  display: flex;
+  width: 40%;
+}
+
+#header .container .inner-container .buttonNav {
+  display: flex;
+  width: 10%;
+}
+
+#header .container .inner-container .inner-nav img {
+  width: 19.69px;
+  height: 15px;
+  color: #009961;
 }
 
 .get-started-btn1,
@@ -125,7 +152,7 @@ body {
 }
 
 .get-started-btn:hover {
-  background: #00b371;
+  background: #c20618;
   color: #fff;
 }
 
@@ -155,7 +182,7 @@ body {
 .navbar>ul>li {
   position: relative;
   white-space: nowrap;
-  margin: 0 12px;
+  margin: 0 2px;
 }
 
 .thLogo {
@@ -214,116 +241,7 @@ body {
   color: #fff;
 }
 
-/**
-* Mobile Navigation 
-*/
-.mobile-nav-toggle {
-  color: #fff;
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  line-height: 0;
-  transition: 0.5s;
-}
 
-@media (max-width: 991px) {
-  .mobile-nav-toggle {
-    display: block;
-  }
-
-  .navbar ul {
-    display: none;
-  }
-}
-
-.navbar-mobile {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(15, 15, 15, 0.9);
-  transition: 0.3s;
-  z-index: 999;
-}
-
-.navbar-mobile .mobile-nav-toggle {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
-.navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  background-color: #fff;
-  overflow-y: auto;
-  transition: 0.3s;
-}
-
-.navbar-mobile a,
-.navbar-mobile a:focus {
-  padding: 10px 20px;
-  font-size: 15px;
-  color: #282828;
-}
-
-.navbar-mobile a:hover:before,
-.navbar-mobile li:hover>a:before,
-.navbar-mobile .active:before {
-  visibility: hidden;
-}
-
-.navbar-mobile a:hover,
-.navbar-mobile .active,
-.navbar-mobile li:hover>a {
-  color: #009961;
-}
-
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
-  margin: 15px;
-}
-
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
-
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
-  color: #009961;
-}
-
-.navbar-mobile .dropdown>.dropdown-active {
-  display: block;
-}
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -331,17 +249,13 @@ body {
 #hero {
   width: 100%;
   text-align: center;
-  background-image: url(/assets/img/hero/hero-img.jpg), linear-gradient(180.63deg, #070909 36.44%, rgba(7, 9, 9, 0) 341.69%);
+  background-image: url(/assets/img/hero/hero-img.jpg), linear-gradient(2.23deg,
+      #050401 -16.28%,
+      rgba(9, 48, 84, 0) 266.28%);
   background-blend-mode: multiply;
   background-size: cover;
   background-position: center;
   margin: 0 auto;
-}
-
-.hero-C {
-  background: linear-gradient(2.23deg,
-      #050401 -16.28%,
-      rgba(9, 48, 84, 0) 266.28%);
 }
 
 #hero .container {
@@ -408,7 +322,6 @@ body {
   padding: 14px 0;
   border-radius: 20px;
   transition: 0.3s ease-in-out;
-  /* margin: 30px 0 0; */
   width: 61px;
   height: 103px;
   text-align: center;
@@ -421,11 +334,19 @@ body {
   background: rgba(255, 255, 255, 0.15);
 }
 
+#hero .scrollUp p {
+  padding-top: 20px;
+  font-size: 18px;
+  line-height: 169.5%;
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 80px 0;
+  padding: 40px 0;
   overflow: hidden;
 }
 
@@ -443,17 +364,6 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-}
-
-.section-title h2::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 3px;
-  background: #009961;
-  bottom: 0;
-  left: 0;
 }
 
 .section-title p {
@@ -930,6 +840,63 @@ section {
   display: inline-block;
   padding: 1em;
 }
+
+/*--------------------------------------------------------------
+# Logo Section
+--------------------------------------------------------------*/
+.testimonial {
+  width: 100%;
+  margin: 0 0;
+  background-color: #DBEAF8;
+}
+
+.testimonial .container {
+  width: 100%;
+  max-width: 1164px;
+  text-align: center;
+  display: flex;
+}
+
+.testimonial .container .testimonialContainer {
+  width: 100%;
+  max-width: 970px;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# FAQ Section
+--------------------------------------------------------------*/
+.faq {
+  width: 100%;
+  margin: 0 0;
+  background-color: #E9F1F8;
+
+}
+
+.faq .container {
+  width: 100%;
+  max-width: 1164px;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.faq select {
+  width: 780px;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0 auto;
+}
+
+.testimonial .container .testimonialContainer {
+  width: 100%;
+  max-width: 970px;
+  text-align: center;
+}
+
 
 /*--------------------------------------------------------------
 # Footer Section
