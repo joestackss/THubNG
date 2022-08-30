@@ -93,50 +93,28 @@ body {
   z-index: 997;
 }
 
-#header .container {
-  margin: 0 auto;
-  background-color: rgba(2, 43, 84, 0.1);
+#header.header-scrolled,
+#header.header-inner-pages {
+  background: rgba(40, 40, 40, 0.9);
 }
 
-#header h3 {
-  display: inline-block;
+
+@media (max-width: 992px) {
+  #header {
+    border: 0;
+    padding: 25px 0;
+  }
 }
 
-#header .container .inner-container {
-  display: flex;
-  background: transparent;
-  width: 100%;
-  max-width: 1175px;
-  justify-content: center;
-
+/* Get Startet Button */
+.get-started-btn {
+  background: var(--color-primary);
+  color: #fff;
 }
 
-#header .container .inner-container .inner-nav {
-  display: flex;
-  justify-content: space-between;
-  width: 30%;
-  align-items: center;
-}
-
-#header .container .inner-container .inner-nav p {
- margin: 0;
- padding: 0;
-}
-
-#header .container .inner-container .logoNav {
-  display: flex;
-  width: 40%;
-}
-
-#header .container .inner-container .buttonNav {
-  display: flex;
-  width: 10%;
-}
-
-#header .container .inner-container .inner-nav img {
-  width: 19.69px;
-  height: 15px;
-  color: #009961;
+.get-started-btn1 {
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
 }
 
 .get-started-btn1,
@@ -152,10 +130,16 @@ body {
 }
 
 .get-started-btn:hover {
-  background: #c20618;
+  background: #00b371;
   color: #fff;
 }
 
+@media (max-width: 992px) {
+  .get-started-btn {
+    margin: 0 15px 0 0;
+    padding: 6px 18px;
+  }
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -182,7 +166,6 @@ body {
 .navbar>ul>li {
   position: relative;
   white-space: nowrap;
-  margin: 0 2px;
 }
 
 .thLogo {
