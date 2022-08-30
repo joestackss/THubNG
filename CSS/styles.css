@@ -1101,6 +1101,180 @@ section {
     padding-bottom: 1em;
   }
 
+  /*--------------------------------------------------------------
+# Update Section
+--------------------------------------------------------------*/
+  #reasons {
+    background-color: #e9f1f8;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  #reasons .container {
+    width: 90%;
+    max-width: 1164px;
+  }
+
+  #reasons h2 {
+    font-family: Spantaran1 sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #0757a0;
+    margin: 0;
+    padding-bottom: 30px;
+  }
+
+  #reasons .outer-col {
+    display: flex;
+    margin-top: 2em;
+    flex-direction: column;
+
+  }
+
+  #reasons .inner-outer-col {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5.5em;
+  }
+
+  #reasons .outer-outer-col {
+    width: 100%;
+  }
+
+  #reasons .btn {
+    margin-top: 5em;
+  }
+
+  /*--------------------------------------------------------------
+# Logo Section
+--------------------------------------------------------------*/
+.testimonial {
+  margin: 0 auto;
+  background-color: #DBEAF8;
+}
+
+.testimonial .container {
+  width: 90%;
+  max-width: 1164px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonial .container .testimonialContainer {
+  width: 100%;
+  max-width: 970px;
+  text-align: center;
+}
+
+/*--------------------------------------------------------------
+# Footer Section
+--------------------------------------------------------------*/
+#footing {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  background-image: url(/assets/img/footer-img.png), linear-gradient(180.63deg, #070909 36.44%, rgba(7, 9, 9, 0) 341.69%);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center
+}
+
+
+
+#footing .container {
+  width: 100%;
+  max-width: 1164px;
+}
+
+#footing h2 {
+  font-family: Spantaran1 sans-serif;
+  font-style: normal;
+  text-align: center;
+  margin: 0;
+  font-size: 36px;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+
+#footing p {
+  text-align: center;
+  font-family: JakartaMedium sans-serif;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #FFFFFF;
+  opacity: 0.9;
+  margin-bottom: 3em;
+}
+
+#footing #copyright {
+  text-align: center;
+  font-family: JakartaMedium sans-serif;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: #FFFFFF;
+  opacity: 0.9;
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+#footing hr {
+  border: 1px solid #FFFFFF;
+}
+
+#footing .faStyle {
+  background-color: #fff;
+  color: #000;
+  margin: 0 15px 20px;
+  padding: 15px;
+  font-size: 25px;
+  border-radius: 50%;
+}
+
+.formContainer {
+  max-width: 589px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 4em 0 4em;
+}
+
+.formFlex {
+  display: flex;
+  max-width: 100%;
+}
+
+.formFlex input {
+  font-family: JakartaMedium sans-serif;
+  background: #fff;
+  color: #060c22;
+  border: 0;
+  outline: none;
+  margin: 0;
+  padding: 25px 20px;
+  border-radius: 50px 0 0 50px;
+  font-size: .9em;
+
+}
+
+.formParent button {
+  display: inline-block;
+  background-color: #C20618;
+  padding: .5em 2em;
+  border-radius: 0 50px 50px 0;
+  border: 0;
+  font-size: .9em;
+  color: #FFFFFF;
+}
 
 
 }
