@@ -1000,34 +1000,34 @@ section {
     text-align: left;
     margin: 0;
   }
-  
+
   #promote .container {
     padding-top: 42px;
     text-align: left;
     width: 90%;
     max-width: 1164px;
   }
-  
+
   #promote .promoteContainer {
     display: flex;
     flex-direction: column;
   }
-  
-  
+
+
   #promote .firstPContainer {
     width: 100%;
   }
-  
+
   #promote .secondPContainer {
     width: 100%;
   }
-  
-  
+
+
   #promote .numbering {
     font-size: 2.5rem;
     line-height: 49px;
   }
-  
+
   #promote p {
     font-size: 1.2rem;
     line-height: 80.9px;
@@ -1037,69 +1037,70 @@ section {
 # Update Section
 --------------------------------------------------------------*/
 
-#update .container {
-  text-align: left;
-  width: 90%;
-  max-width: 1164px;
-}
+  #update .container {
+    text-align: left;
+    width: 90%;
+    max-width: 1164px;
+  }
 
-#update h2 {
-  font-family: Spantaran1 sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 96px;
-  line-height: 100px;
-  text-align: center;
-  color: #0757a0;
-  margin: 0;
-  padding-bottom: 30px;
-}
+  .formContainer {
+    max-width: 589px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 4em 0 0;
+  }
 
-#update p {
-  text-align: center;
-  font-family: JakartaMedium sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 36px;
-  line-height: 68px;
-  color: #c20618;
-  margin: 0;
-}
+  /*--------------------------------------------------------------
+# Youtube Section
+--------------------------------------------------------------*/
+  .youtube {
+    background-color: #e9f1f8;
+    margin: 0 0;
+  }
 
-.formContainer {
-  max-width: 589px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 4em 0 0;
-}
+  .youtube .container {
+    width: 90%;
+    max-width: 1164px;
+    text-align: center;
+    padding: 5em 0;
+  }
 
-.formFlex {
-  display: flex;
-  max-width: 100%;
-}
+  /*--------------------------------------------------------------
+# Player Focus Section
+--------------------------------------------------------------*/
 
-.formFlex input {
-  font-family: JakartaMedium sans-serif;
-  background: #fff;
-  color: #060c22;
-  border: 0;
-  outline: none;
-  margin: 0;
-  padding: 25px 20px;
-  border-radius: 50px 0 0 50px;
-  font-size: .9em;
+  .playerFocus .container {
+    width: 90%;
+    max-width: 1164px;
+    margin: 0 auto;
+  }
 
-}
 
-.formParent button {
-  display: inline-block;
-  background-color: #C20618;
-  padding: .5em 2em;
-  border-radius: 0 50px 50px 0;
-  border: 0;
-  font-size: .9em;
-  color: #FFFFFF;
-}
+  .playerFocus .promoteContainer {
+    display: flex;
+    max-width: 100%;
+    padding-top: 2em;
+    flex-direction: column;
+  }
 
-  
+  .firstPContainer {
+    width: 100%;
+  }
+
+  .secondPContainer {
+    width: 100%;
+  }
+
+  .secondPContainer img {
+    margin: 0;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .playerFocus h2 {
+    padding-bottom: 1em;
+  }
+
+
+
 }
