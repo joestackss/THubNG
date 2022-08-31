@@ -27,7 +27,6 @@
   --color-default: #c20618;
   --color-primary: #c20618;
   --color-secondary: blue;
-  /* #0757a0 */
 }
 
 /* Smooth scroll behavior */
@@ -239,22 +238,17 @@ body {
   background-size: cover;
   background-position: center;
   margin: 0 auto;
+  display: flex;
 }
 
 #hero .container {
   width: 90%;
-  max-width: 1164px;
-  margin: 0 auto;
-}
-
-#hero .container .headingContainer {
-  width: 100%;
   max-width: 905px;
   margin: 0 auto;
 }
 
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin-bottom:10px;
   font-size: 130px;
   font-weight: 400;
   line-height: 120px;
@@ -271,6 +265,7 @@ body {
   font-family: JakartaMedium sans-serif;
   margin-top: 250px;
 }
+
 
 #hero p {
   color: #eee;
@@ -1010,41 +1005,43 @@ section {
 }
 
 #hero .container {
-  width: 90%;
+  width: 95%;
   max-width: 1164px;
   margin: 0 auto;
 }
 
 #hero .container .headingContainer {
-  width: 100%;
+  width: 90%;
   max-width: 905px;
   margin: 0 auto;
 }
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 130px;
+  font-size: 70px;
   font-weight: 400;
   line-height: 120px;
   color: #fff;
   font-family: Spantaran1 sans-serif;
+  padding: 0;
+  text-align: center;
 }
 
 #hero h2 {
   color: #eee;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
   font-size: 36px;
   text-align: left;
   font-weight: 700;
   font-family: JakartaMedium sans-serif;
-  margin-top: 250px;
+  margin-top: 200px;
 }
 
 #hero p {
   color: #eee;
   margin-bottom: 40px;
-  font-size: 32px;
-  text-align: center;
+  font-size: 25px;
+  text-align: left;
   font-weight: 400;
   font-family: JakartaMedium sans-serif;
 }
