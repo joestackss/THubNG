@@ -368,10 +368,13 @@ p {
 
   .col-1 {
     width: 100%;
+    order: 2;
   }
 
   .col-2 {
     width: 100%;
+    order: 1;
+    padding-bottom: 6em;
   }
 
   .info-col-1 {
