@@ -219,11 +219,22 @@ p {
 
 @media (max-width : 600px) {
   html {
-    font-size: .8rem;
+    font-size: .7rem;
+  }
+
+  .btn-center {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding-bottom: 2em;
   }
 
   .container {
     width: 95%;
+  }
+
+  p {
+    text-align: left;
   }
 
   .hero-col-1 {
