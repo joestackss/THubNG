@@ -186,9 +186,6 @@ p {
 
 /* ABOUT SECTION START */
 
-/* ABOUT SECTION END */
-
-
 .about-column {
   width: 100%;
   background-image: url(/assets/img/about-us-img.png), linear-gradient(2.23deg, #050401 -16.28%, rgba(9, 48, 84, 0) 266.28%);
@@ -211,6 +208,83 @@ p {
   padding-bottom: 3em;
   line-height: 45px
 }
+
+/* ABOUT SECTION END */
+
+
+
+
+/* PROMOTE START */
+
+.promote-column {
+  background-color: #E9F1F8;
+}
+
+.col-main {
+  display: flex;
+  justify-content: space-around;
+  padding: 6em 0;
+
+}
+
+.col-1 {
+  width: 45%;
+}
+
+.col-2 {
+  width: 45%;
+}
+
+.info-col-1 {
+  display: flex;
+  padding-bottom: 5em;
+}
+
+.promote-column h2 {
+  font-family: Spantaran1 sans-serif;
+  text-align: left;
+  font-size: 8rem;
+  line-height: 131px;
+  font-weight: 400;
+  color: #0757A0;
+}
+
+.promote-column h3 {
+  font-family: JakartaMedium sans-serif;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #C20618;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.promote-column h4 {
+  font-family: JakartaMedium sans-serif;
+  text-align: left;
+  font-size: 3rem;
+  line-height: 45px;
+  font-weight: 400;
+  color: #0757A0;
+  padding-right: .5em;
+  margin: 0;
+}
+
+.promote-column p {
+  font-family: JakartaMedium sans-serif;
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 35px;
+  color: #000;
+  margin: 0;
+}
+
+
+
+/* PROMOTE END */
+
+
+
 
 
 
@@ -279,4 +353,71 @@ p {
 
   /* ABOUT US END */
 
+  /* PROMOTE START */
+  .promote-column {
+    background-color: #E9F1F8;
+  }
+
+  .col-main {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 6em 0;
+
+  }
+
+  .col-1 {
+    width: 100%;
+  }
+
+  .col-2 {
+    width: 100%;
+  }
+
+  .info-col-1 {
+    display: flex;
+    padding-bottom: 5em;
+  }
+
+  .promote-column h2 {
+    font-family: Spantaran1 sans-serif;
+    text-align: left;
+    font-size: 8rem;
+    line-height: 100px;
+    font-weight: 400;
+    color: #0757A0;
+  }
+
+  .promote-column h3 {
+    font-family: JakartaMedium sans-serif;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #C20618;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .promote-column h4 {
+    font-family: JakartaMedium sans-serif;
+    text-align: left;
+    font-size: 3rem;
+    line-height: 45px;
+    font-weight: 400;
+    color: #0757A0;
+    padding-right: .5em;
+    margin: 0;
+  }
+
+  .promote-column p {
+    font-family: JakartaMedium sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 35px;
+    color: #000;
+    margin: 0;
+  }
+
+
+  /* PROMOTE END */
 }
