@@ -544,7 +544,7 @@ p {
   }
 
   .formContainer {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 
   }
@@ -580,20 +580,20 @@ p {
   }
 
   /* MEDIA START */
-.media {
-  background-color: #E9F1F8;
-  padding: 5em 0;
-}
+  .media {
+    background-color: #E9F1F8;
+    padding: 5em 0;
+  }
 
-.media .media-col-1 {
-  display: flex;
-  margin: 0 auto;
-  justify-content: center;
-}
+  .media .media-col-1 {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
 
-.media img {
-  max-width: 95%;
-}
+  .media img {
+    max-width: 95%;
+  }
 
-/* MEDIA END */
+  /* MEDIA END */
 }
