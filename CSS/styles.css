@@ -279,10 +279,82 @@ p {
   margin: 0;
 }
 
-
-
 /* PROMOTE END */
 
+
+/* UPDATE START */
+.update-col {
+  width: 100%;
+  background-color: #E9F1F8;
+  padding: 0 0 8em;
+}
+
+.update-col .col-1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1164px;
+}
+
+.update-col h2 {
+  font-family: Spantaran1 sans-serif;
+  text-align: center;
+  font-size: 6rem;
+  line-height: 100px;
+  font-weight: 400;
+  color: #0757A0;
+  padding-bottom: .2em;
+}
+
+
+.update-col p {
+  font-family: JakartaMedium sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 35px;
+  color: #C20618;
+  margin: 0;
+  margin-bottom: 2em;
+}
+
+.formContainer {
+  width: 50%;
+  margin: 0 auto;
+
+}
+
+.formFlex {
+  display: flex;
+}
+
+
+.update-col input {
+  font-family: JakartaLight sans-serif;
+  text-align: inherit;
+  padding: 1.2em;
+  border: 1px solid #404040;
+  transform: scale(1);
+  border-radius: 5px;
+  transition: transform 250ms;
+  background: #FFFFFF;
+  opacity: 0.7;
+  border-radius: 50px 0px 0px 50px;
+  width: 75%;
+}
+
+.update-col input:focus {
+  transform: scale(1.05);
+}
+
+.update-col .btn {
+  font-family: JakartaLight sans-serif;
+  border-radius: 0 50px 50px 0;
+  padding: 1.2em;
+  width: 25%;
+}
+
+/* UPDATE END */
 
 
 
@@ -419,4 +491,70 @@ p {
 
 
   /* PROMOTE END */
+
+  .update-col {
+    width: 100%;
+    background-color: #E9F1F8;
+    padding: 0 0 10em;
+  }
+  
+  .update-col .col-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1164px;
+  }
+  
+  .update-col h2 {
+    font-size: 6rem;
+    line-height: 70px;
+  }
+  
+  
+  .update-col p {
+    font-family: JakartaMedium sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+    line-height: 35px;
+    color: #C20618;
+    margin: 0;
+    margin-bottom: 2em;
+  }
+  
+  .formContainer {
+    width: 80%;
+    margin: 0 auto;
+  
+  }
+  
+  .formFlex {
+    display: flex;
+  }
+  
+  
+  .update-col input {
+    font-family: JakartaLight sans-serif;
+    text-align: inherit;
+    padding: 1.9em;
+    border: 1px solid #404040;
+    transform: scale(1);
+    border-radius: 5px;
+    transition: transform 250ms;
+    background: #FFFFFF;
+    opacity: 0.7;
+    border-radius: 50px 0px 0px 50px;
+    width: 75%;
+  }
+  
+  .update-col input:focus {
+    transform: scale(1.05);
+  }
+  
+  .update-col .btn {
+    font-family: JakartaLight sans-serif;
+    border-radius: 0 50px 50px 0;
+    padding: 1.2em;
+    width: 25%;
+  }
 }
