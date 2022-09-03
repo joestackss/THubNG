@@ -68,7 +68,6 @@ h2 {
 }
 
 h3 {
-  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 4rem;
@@ -78,7 +77,6 @@ h3 {
 }
 
 h5 {
-  font-family: 'Roboto';
   font-style: normal;
   font-size: 1rem;
   color: #393737;
@@ -376,6 +374,75 @@ p {
 /* MEDIA END */
 
 
+/* PLAYERFOCUS START */
+
+.playerFocus {
+  width: 100%;
+  background-image: url(/assets/img/playerFocus.png), linear-gradient(180.63deg, #070909 36.44%, rgba(7, 9, 9, 0) 341.69%);
+  background-position: center;
+  background-blend-mode: multiply;
+  background-size: cover;
+
+}
+
+.playerFocus img {
+  max-width: 100%;
+  height: auto;
+}
+
+.playerFocus .main-col {
+  display: flex;
+  padding: 6em 0;
+  justify-content: space-between;
+
+}
+
+.playerFocus .col-1 {
+  width: 40%;
+}
+
+.playerFocus .col-2 {
+  width: 60%;
+}
+
+.playerInfoBox {
+  background: radial-gradient(158.47% 95.91% at -49.58% 75.24%, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  box-shadow: inset -3.46337px -3.46337px 173.168px rgba(255, 255, 255, 0.02);
+  border-radius: 0 20px 0px 0px;
+  padding: 2.5em;
+}
+
+.playerFocus h2 {
+  font-family: Spantaran1 sans-serif;
+  text-align: left;
+  font-size: 4rem;
+  line-height: 100px;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 2.2em;
+}
+
+.playerFocus h3 {
+  font-family: JakartaMedium sans-serif;
+  font-size: 1.5rem;
+  text-align: left;
+  line-height: 35px;
+  color: #fff;
+  color: #B9349C;
+}
+
+.playerFocus p {
+  font-family: JakartaLight sans-serif;
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 35px;
+  color: #fff;
+  margin: 0;
+}
+
+/* PLAYER FOCUS END */
+
+
 
 
 
@@ -596,4 +663,51 @@ p {
   }
 
   /* MEDIA END */
+
+
+  /* PLAYERFOCUS START */
+
+  .playerFocus .main-col {
+    display: flex;
+    padding: 6em 0;
+    flex-direction: column;
+
+  }
+
+  .playerFocus .col-1 {
+    order: 1;
+    width: 80%;
+  }
+
+  .playerFocus .col-2 {
+    width: 100%;
+    order: 2;
+  }
+
+  .playerFocus h2 {
+    font-family: Spantaran1 sans-serif;
+    text-align: left;
+    font-size: 7rem;
+    padding-bottom: 1em;
+  }
+
+  .playerFocus h3 {
+    font-family: JakartaMedium sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    line-height: 35px;
+    color: #B9349C;
+  }
+
+  .playerFocus p {
+    font-family: JakartaLight sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 35px;
+    color: #fff;
+    margin: 0;
+  }
+
+  /* PLAYER FOCUS END */
+  /* PLAYERFOCUS END */
 }
