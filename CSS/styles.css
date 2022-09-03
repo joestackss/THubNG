@@ -385,10 +385,10 @@ p {
   .promote-column h2 {
     font-family: Spantaran1 sans-serif;
     text-align: left;
-    font-size: 8rem;
-    line-height: 100px;
     font-weight: 400;
     color: #0757A0;
+    font-size: 7rem;
+    line-height: 103px;
   }
 
   .promote-column h3 {
@@ -404,21 +404,16 @@ p {
   .promote-column h4 {
     font-family: JakartaMedium sans-serif;
     text-align: left;
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 45px;
-    font-weight: 400;
-    color: #0757A0;
+    font-weight: 700;
     padding-right: .5em;
     margin: 0;
   }
 
   .promote-column p {
-    font-family: JakartaMedium sans-serif;
-    font-size: 1.2rem;
-    text-align: left;
+    font-size: 1.7rem;
     line-height: 35px;
-    color: #000;
-    margin: 0;
   }
 
 
