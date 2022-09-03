@@ -269,4 +269,14 @@ p {
 
   /* MEDIA HERO END */
 
+  /* ABOUT US START*/
+
+  .about-column h2 {
+    font-size: 7rem;
+    line-height: 103px;
+  }
+
+
+  /* ABOUT US END */
+
 }
